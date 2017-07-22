@@ -23,7 +23,7 @@
       <!-- adding links using rails <%= link_to %>-->
       <%= link_to root_path, class: "navbar-brand" do %>
         <i class="fa fa-group"></i>
-          P E T E Rs C O N N E C T
+          D E V M A T C H
           <% end %>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -33,7 +33,6 @@
           <%= link_to "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-default navbar-btn"%>
         <% else %>
           <%= link_to "Log In", new_user_session_path, class: "btn btn-default navbar-btn"%>
-          <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-default navbar-btn"%>
         <% end %>
         </div>
       
